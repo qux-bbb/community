@@ -10,6 +10,7 @@ class RansomwareShadowcopy(Signature):
     name = "ransomware_shadowcopy"
     description = "Removes the Shadow Copy to avoid recovery of the system"
     severity = 3
+    score = 100
     categories = ["ransomware"]
     authors = ["Cuckoo Technologies"]
     minimum = "2.0"

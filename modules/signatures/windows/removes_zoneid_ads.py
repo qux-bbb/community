@@ -8,6 +8,7 @@ class RemovesZoneIdADS(Signature):
     name = "removes_zoneid_ads"
     description = "Attempts to remove evidence of file being downloaded from the Internet"
     severity = 3
+    score = 100
     categories = ["generic"]
     authors = ["Optiv"]
     minimum = "2.0"
